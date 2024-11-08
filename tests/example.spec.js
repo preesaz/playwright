@@ -16,4 +16,17 @@ test('get started link', async ({ page }) => {
 
   // Expects page to have a heading with the name of Installation.
   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+// });
+
+// test('Click writing test link', async ({ page }) => {
+
+  //  const element = page.locator('a :text("Writing tests")');
+  // element.click();
+
+  await page.getByRole('link', { name: 'Writing tests', exact: true }).click();
+
+  // await page.locator('a :text("Writing tests")').click();
+   //await page.getByText('link', { name: 'Writing tests'}).click();
+
+  await expect(page.getByRole('heading', { name: 'Writing tests'})).toBeVisible();
 });

@@ -1,0 +1,79 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "homepage-functionality;verify-product-web-testing",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Verify Product Web Testing",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1461266900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User navigates to the Browserstack Homepage",
+            "match": {
+              "location": "tests\\stepdef\\step.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6156365900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Product Menu",
+            "match": {
+              "location": "tests\\stepdef\\step.js:93"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1925748499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "It should show Web Testing Product",
+            "match": {
+              "location": "tests\\stepdef\\step.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86315800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2090114799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "homepage-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Homepage Functionality",
+    "tags": [],
+    "uri": "tests\\feature\\example.feature"
+  }
+]
